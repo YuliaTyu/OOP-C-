@@ -22,7 +22,6 @@ namespace OOP
             get { return y; }
             set { y = value; }
         }
-
         public double GetX()
         {
             return x;
@@ -39,22 +38,17 @@ namespace OOP
         {
             this.y = y;
         }
-
-       
+             
         }*/
 
-        public double X { get; set; }
-        public double Y { get; set; }
+        //public double X { get; set; }
+        //public double Y { get; set; }
 
         //Methods
-        public void Print()
+        /*public void Print()
         {
             Console.WriteLine($"X = {X}, Y = {Y}");
-
-        }
-
-
-
+        }*/
     }
 }
 
